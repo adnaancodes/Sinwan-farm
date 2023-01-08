@@ -24,8 +24,3 @@
 .egderadius {
     border-radius: 20px 0px 0px 20px;
 }
-
-.bgdescription {
-    background-image: linear-gradient(to right, yellow, white, orange);
-    width: 100%;
-}

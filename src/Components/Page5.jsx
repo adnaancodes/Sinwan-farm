@@ -42,7 +42,9 @@ function Page5() {
             src={img}
             alt=""
           />
-          <p className="bgdescription mt-[4%] rounded-[10px]">{description}</p>
+          <p className="bg-gradient-to-r from-yellow-500 to-orange-500 w-[100%] mt-[4%] rounded-[10px]">
+            {description}
+          </p>
         </div>
       ))}
     </div>
