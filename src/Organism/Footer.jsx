@@ -3,9 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="flex flex-col gap-10 bg-[#ffff]   ">
-      <div className="">
-        <h3 className="text-lg font-semibold">Sinwan Farms</h3>
-      </div>
+      <div className=""></div>
       <div className="flex flex-row justify-center items-center gap-8 text-[0.75rem] font-extrabold">
         <button className="hover:text-gray-500">SHOP WITH US</button>
         <button className="hover:text-gray-500">STORES</button>

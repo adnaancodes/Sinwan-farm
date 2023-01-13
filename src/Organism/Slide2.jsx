@@ -1,6 +1,6 @@
 import React from "react";
 
-function Page2() {
+function Slide2() {
   return (
     <div className="bannerbg w-[100%] h-[100vh] z-[1]">
       <div className=" overlay w-[100%] h-[100%] flex flex-row justify-center mt-[7rem] ">
@@ -12,4 +12,4 @@ function Page2() {
   );
 }
 
-export default Page2;
+export default Slide2;

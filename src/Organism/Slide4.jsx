@@ -1,6 +1,7 @@
 import React from "react";
 import kiwi from "../assets/images/kiwi.jpg";
-function Page4() {
+import Button from "../Atom/Button";
+function Slide4() {
   return (
     <div className="w-[100%] h-[100vh] mt-[6%] flex flex-row justify-center items-center">
       <div className="bg-[white] shadow-md shadow-[] w-[70%] h-[85vh] flex flex-row-reverse justify-center items-center rounded-[20px]">
@@ -15,10 +16,11 @@ function Page4() {
             quae ipsam, magnam distinctio, itaque non laboriosam sint delectus,
             eligendi exercitationem.
           </p>
+          <Button />
         </div>
       </div>
     </div>
   );
 }
 
-export default Page4;
+export default Slide4;

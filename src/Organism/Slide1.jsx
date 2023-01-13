@@ -1,7 +1,7 @@
 import React from "react";
 import img3 from "../assets/images/img3.jpg";
 
-function Homepage() {
+function Slide1() {
   return (
     <div className="flex flex-col justify-center items-center mt-[2%]">
       <h1 className="text-[4rem]">𝕷𝖎𝖛𝖊 𝕳𝖊𝖆𝖑𝖙𝖍𝖞</h1>
@@ -9,7 +9,7 @@ function Homepage() {
       <div className="w-[100%]   flex items-center justify-center mt-[4rem] ">
         <img src={img3} alt="" className="w-[70%] rounded-[2rem] " />
       </div>
-      <p className="w-[65%] mt-[3rem]">
+      <p className="w-[50%] text-[0.9rem] font-medium mt-[3rem]">
         Eating fresh fruits and vegetables is a great way to stay away from the
         restaurant check-out line and save money. The convenience of buying
         fresh foods prevents you from being responsible for your own meals.
@@ -24,4 +24,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Slide1;

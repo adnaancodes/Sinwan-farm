@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import Confirmation from "../Molecule/Confirmation";
 
-function About() {
+function Slide6() {
+  const [show, setShow] = useState(false);
   return (
     <div className="flex flex-col justify-center items-center gap-4">
       <p className="w-[50%] text-[1.2rem] font-medium">
@@ -25,12 +27,15 @@ function About() {
           Email address
         </label>
         <input
-          type="text"
-          className="border-[2px] border-[tomato] outline-[blue] bg-[blue w-[30%] h-[8vh] rounded-[20px] z-[1]"
+          type="email"
+          required
+          onClick={(e) => setShow(true)}
+          className="border-[2px] border-[tomato] outline-[blue] bg-[blue w-[30%] h-[8vh] rounded-[15px] z-[1] pl-[1rem] shadow-lg"
         />
       </form>
+      {show ? <Confirmation /> : ""}
     </div>
   );
 }
 
-export default About;
+export default Slide6;

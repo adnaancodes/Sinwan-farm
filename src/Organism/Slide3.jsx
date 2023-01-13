@@ -1,6 +1,7 @@
 import React from "react";
 import cherry from "../assets/images/cherry.jpg";
-function Page3() {
+import Button from "../Atom/Button";
+function Slide3() {
   return (
     <div className="w-[100%] h-[100vh] mt-[10%] flex flex-row justify-center items-center">
       <div className="bg-[white] shadow-md shadow-[] w-[80%] h-[90vh] flex flex-row justify-center items-center rounded-[20px]">
@@ -15,10 +16,11 @@ function Page3() {
             quae ipsam, magnam distinctio, itaque non laboriosam sint delectus,
             eligendi exercitationem.
           </p>
+          <Button />
         </div>
       </div>
     </div>
   );
 }
 
-export default Page3;
+export default Slide3;

@@ -5,7 +5,7 @@ import pineapple from "../assets/images/pineapple.jpg";
 import veggies from "../assets/images/veggies.jpg";
 import blueberry from "../assets/images/blueberry.jpg";
 
-function Page5() {
+function Slide5() {
   const pictures = [
     {
       img: orange,
@@ -51,4 +51,4 @@ function Page5() {
   );
 }
 
-export default Page5;
+export default Slide5;
